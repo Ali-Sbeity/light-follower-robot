@@ -1,7 +1,7 @@
 # light-follower-robot
 
 robot uses three LDR sensors to detect the brightest light source.
-a push button for start-stop control, LED to show when the robot is on.
+a push button is used for start-stop control, and a LED to show when the robot is on.
 
 
 ## Source code: 
