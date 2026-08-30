@@ -46,7 +46,7 @@ void loop()
 {
   int buttonState = digitalRead(buttonPin);
 
-  if(buttonState == HIGH && lastButtonState == LOW)
+  if(buttonState == LOW && lastButtonState == HIGH)
   {
     robotOn = !robotOn;
   }
