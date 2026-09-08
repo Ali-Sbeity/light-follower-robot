@@ -18,4 +18,6 @@ a push button is used for start-stop control, and a LED to show when the robot i
 
 ## project video: 
 
-[video.mp4](video.mp4)
+[video.mp4](video.mp4) 
+
+[YouTube](https://youtu.be/Z_dK0zsoR1s?si=AEnTLOxrFnQqNSAz)
