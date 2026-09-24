@@ -7,7 +7,7 @@ a push button is used for start-stop control, and a LED to show when the robot i
 ## Components List
 
 - **1×** Arduino Uno board
-- **2×** L298N motor driver module
+- **1×** L298N motor driver module
 - **2×** 12v DC gear motor with wheels
 - **3×** LDR light sensors
 - **3×** 10Kohm Resistors
