@@ -70,7 +70,10 @@ void loop()
     Serial.print(" R=");
     Serial.println(rightValue);
 
-    if (leftValue > stopThreshold || centerValue > stopThreshold || rightValue > stopThreshold) {
+    if (leftValue > stopThreshold ||
+      centerValue > stopThreshold ||
+      rightValue > stopThreshold) {
+      
       analogWrite(enA, 0);
       analogWrite(enB, 0);
 
@@ -80,7 +83,7 @@ void loop()
       digitalWrite(in4, LOW);
     }
 
-    if(leftValue < lightThreshold &&
+    else if(leftValue < lightThreshold &&
        centerValue < lightThreshold &&
        rightValue < lightThreshold)
     {
@@ -91,7 +94,8 @@ void loop()
       digitalWrite(in3, LOW);
       digitalWrite(in4, LOW);
     }
-    else if(leftValue > centerValue + tolerance && leftValue > rightValue + tolerance)
+    else if(leftValue > centerValue + tolerance
+      && leftValue > rightValue + tolerance)
     {
 
       analogWrite(enA, turnSpeed);
@@ -104,7 +108,8 @@ void loop()
       digitalWrite(in4, LOW);
     }
 
-    else if(rightValue > centerValue + tolerance && rightValue > leftValue + tolerance)
+    else if(rightValue > centerValue + tolerance
+      && rightValue > leftValue + tolerance)
     {
 
       analogWrite(enA, turnSpeed);
