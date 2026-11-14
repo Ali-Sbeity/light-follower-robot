@@ -25,9 +25,9 @@ a push button is used for start-stop control, and a LED to show when the robot i
 [code.ino](code.ino)
 
 
-## Circuit schematic: 
+## Wiring diagram: 
 
-[schematic.png](schematic.png)
+[light following robot.png](light following robot.png)
 
 
 ## project video: 
