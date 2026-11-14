@@ -27,7 +27,7 @@ a push button is used for start-stop control, and a LED to show when the robot i
 
 ## Wiring diagram: 
 
-[light following robot.png](light following robot.png)
+[wiring-diagram.png](wiring-diagram.png)
 
 
 ## project video: 
